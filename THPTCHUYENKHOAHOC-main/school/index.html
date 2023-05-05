@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/tooplate-style.css">
+</head>
+
+
+
+<body>
+    <div class="tm-container mx-auto">
+        <section class="tm-section tm-section-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="tm-bg-circle-white tm-flex-center-v">
+                            <header class="text-center">
+                                <h1 class="tm-site-title">Miyatake Elementary School</h1>
+                                <p class="tm-site-subtitle">153 Miyatakemachi, Nomi, Ishikawa 923-1205, japan</p>
+                            </header>
+                            <p>Miyatake elementary school is a school in Ishikawa. Miyatake elementary school is situated nearby to Miyatake Post Office and the Buddhist temple 正林寺..</p>
+                            <p class="text-center mt-4 mb-0">
+                                <a data-scroll href="#tm-section-2" class="btn tm-btn-secondary">Continue...</a>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="tm-section-2" class="tm-section pt-2 pb-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-5 col-lg-6 tm-flex-center-v tm-text-container tm-section-left">
+                        <h2 class="tm-color-secondary mb-4">Nguyen Chi Dieu Secondary School</h2>
+                        <p class="mb-4">Địa chỉ: 11 Đống Đa, Phú Nhuận, Thành phố Huế, Thừa Thiên Huế</p>
+                        <p class="mb-5">Trường THCS Nguyễn Chí Diểu được thành lập năm 1979, trên cơ sở kế thừa truyền thống của trường Trung học kháng chiến Nguyễn Chí Diểu- ngôi trường đầu tiên của chính quyền Cách mạng- được thành lập vào năm 1949, 
+                            theo Quyết định của Ủy ban kháng chiến hành chính Tỉnh Thừa Thiên. Hiện nay trường thuộc loại trường hạng I. .</p>
+                        <p class="text-right mb-0">
+                            <a href="#tm-section-3" class="btn tm-btn-secondary">Continue...</a>
+                        </p>
+                    </div>
+                    <div class="col-xl-7 col-lg-6 tm-circle-img-container">
+                        <img src="img/NCD.jpg" alt="Image" class="rounded-circle tm-circle-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="tm-section-3" class="tm-section tm-section-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12 tm-section-2-right">
+                        <div class="tm-bg-circle-white tm-bg-circle-pad-2 tm-flex-center-v">
+                            <header>
+                                <h2 class="tm-color-primary">HUSC High School for the Gifted</h2>
+                            </header>
+                            <p>38 Đống Đa, Huế, Thừa Thiên Huế, Việt Nam
+                            </p>
+                            <ul class="dashed">
+                                <li>Hiện nay, trường Trường THPT chuyên Khoa học Huế nằm ở dãy nhà K trường Đại học Khoa học Huế.
+                                    Ngoài ra, trường còn dùng các tòa nhà khác, hệ thống thông tin, thư viện, máy tính, đồ thực hành, máy móc, 
+                                    trang thiết bị kỹ thuật như các sinh viên đại học của Đại học Khoa học.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="tm-section pt-2 pb-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 tm-flex-center-v tm-section-left">
+                        <form action="#" class="tm-contact-form" method="POST">
+                            <div class="form-group mb-4">
+                                <input type="text" id="contact_name" name="contact_name" class="form-control" placeholder="Name" required/>
+                            </div>
+                            <div class="form-group mb-4">
+                                <input type="email" id="contact_email" name="contact_email" class="form-control" placeholder="Email" required/>
+                            </div>
+                            <div class="form-group mb-5">
+                                <textarea rows="5" id="contact_message" name="contact_message" class="form-control" placeholder="Message..." required></textarea>
+                            </div>
+                            <div class="form-group mb-0 text-right">
+                                <button type="submit" class="btn tm-btn-primary tm-send-btn">Send</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-xl-8 col-lg-8 tm-circle-img-container tm-contact-right">
+                        <img src="img/A1.JPG" alt="Image" class="rounded-circle tm-circle-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="js/smooth-scroll.polyfills.min.js"></script>
+    <!-- https://github.com/cferdinandi/smooth-scroll -->
+    <script>
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            easing: 'easeInOutQuart',
+            speed: 800
+        });
+    </script>
+</body>
+
+</html>
